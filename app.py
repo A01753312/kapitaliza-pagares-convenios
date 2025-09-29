@@ -286,7 +286,7 @@ TEMPLATES = {
     "HUEHUETOCA": TPL_DIR / "PAGARE 2 HUEHUETOCAej.docx",
     "TECAMAC":    TPL_DIR / "PAGARE 2 TECAMACej.docx",
     "ZUMPANGO":   TPL_DIR / "PAGARE 2 ZUMPANGOej1.docx",
-    "CONVENIO":   TPL_DIR / "CONVENIO_GRUPALej1246.docx",  # Cambia aquí al nombre exacto de tu plantilla
+    "CONVENIO":   TPL_DIR / "CONVENIO_GRUPALej10.docx",  # Cambia aquí al nombre exacto de tu plantilla
 }
 PAGARE_KEYS = ["HUEHUETOCA", "TECAMAC", "ZUMPANGO"]  # claves de plantillas de pagaré
 
@@ -706,3 +706,4 @@ with tab2:
 if not df.empty:
     st.subheader("📋 Vista previa del Excel")
     st.dataframe(df.head(10).astype(str))
+
